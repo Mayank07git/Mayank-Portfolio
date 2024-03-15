@@ -36,7 +36,7 @@ header{
 
 .navlinks{
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
     list-style-type: none;
 }
 
@@ -196,7 +196,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .projects-wrapper{
@@ -247,10 +247,13 @@ header{
 }
 
 .project-title{
-    color: var(--hero-heading);
+    background: var(--gradient-heading);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -284,6 +287,110 @@ header{
     width: 20px;
     height: 20px;
 }
+
+
+/* Services */
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 4rem;
+    min-height: 124vh;
+}
+
+.services-wrapper-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+.services-wrapper:hover{
+    transform: scale(1.05);
+}
+
+.services-wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+.services-wrapper2:hover{
+    transform: scale(1.05);
+}
+
+.services-wrapper3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+.services-wrapper3:hover{
+    transform: scale(1.05);
+}
+
+.services-card{
+    width: 373px;
+    height: 505px;
+    border-radius: 20px;
+    background: #363636;
+    box-shadow: 2px 2px 100px 0px rgb(0, 0, 0, 0.20);
+}
+
+.services-img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%; 
+    height: 250px;
+    width: 373px;
+}
+
+.services-details{
+    padding: 1rem;
+}
+
+.services-title{
+    background: var(--gradient-heading);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.services-info{
+    color: var(--hero-heading);
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 1rem 0;
+}
+
 
 
 /* Contact section */
@@ -382,6 +489,28 @@ footer{
         padding: 1.5rem;
     }
 
+    .services-card{
+        width: 260px;
+        height: 500px;
+    }
+
+    .services-img{
+        width: 260px;
+        height: 180px;
+    }
+
+    .services-title{
+        font-size: 2rem;
+    }
+
+    .services-info{
+        font-size: 1.1rem;
+    }
+
+    .services-details{
+        padding: 1.5rem;
+    }
+
     .sub-section-heading-content{
         padding: 0 2rem;
     }
@@ -403,7 +532,8 @@ footer{
         }
 
         .navlinks a{
-            font-size: 1.6rem;
+            padding: 0 0.5rem;
+            font-size: 1.1rem;
         }
 
         .profile-img-wrapper{
