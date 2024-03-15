@@ -491,7 +491,7 @@ footer{
 
     .services-card{
         width: 260px;
-        height: 500px;
+        height: 505px;
     }
 
     .services-img{
@@ -500,11 +500,11 @@ footer{
     }
 
     .services-title{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .services-info{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .services-details{
