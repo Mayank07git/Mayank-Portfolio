@@ -292,11 +292,11 @@ header{
     flex-direction: column;
     gap: 6rem;
     margin-top: 4rem;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .sub-section-heading-content{
-    padding: 0 3rem;
+    padding: 0 10rem;
     color: var(--light-content);
     text-align: center;
     font-size: 2rem;
@@ -305,7 +305,7 @@ header{
 }
 
 .contact-list {
-    padding: 0 3rem; 
+    text-align: center;
     color: var(--light-content);
     font-size: 2rem;
     font-style: normal;
@@ -382,13 +382,16 @@ footer{
         padding: 1.5rem;
     }
 
+    .sub-section-heading-content{
+        padding: 0 2rem;
+    }
+
     .contact-list{
         font-size: 1.5rem;
-        text-align: center;
     }
 }
 
-@media all and (width <=762px){
+@media all and (width <=800px){
         #hero{
             flex-direction: column;
             margin-top: 3rem;
@@ -397,6 +400,10 @@ footer{
         .hero-content{
             font-size: 3.4rem;
             line-height: 5.5rem;
+        }
+
+        .navlinks a{
+            font-size: 1.6rem;
         }
 
         .profile-img-wrapper{
