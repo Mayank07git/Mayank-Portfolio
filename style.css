@@ -139,6 +139,26 @@ header {
     box-shadow: 0px 0px 2px 2px purple;
 }
 
+.download {
+    display: inline;
+    position: relative;
+    bottom: 2.5rem;
+    padding: 12px 20px;
+    margin: 1rem 0.5rem;
+    background: var(--dark-mode);
+    border: 1px solid var(--hero-heading);
+    border-radius: 48px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+
+.download:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 2px 2px purple;
+}
+
 
 /* Tech Skills */
 .section-heading {
@@ -458,6 +478,12 @@ footer {
     font-size: 25px;
     padding: 2px;
     border-radius: 0.5rem;
+    transition: 0.2s ease-in;
+}
+
+.top button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 1px 1px var(--dark-mode);
 }
 
 
@@ -538,6 +564,11 @@ footer {
     .contact-list {
         font-size: 1.5rem;
     }
+
+    .download {
+        bottom: 2.7rem;
+        font-size: 14px;
+    }
 }
 
 @media all and (width <=800px) {
@@ -578,7 +609,7 @@ footer {
     }
 
     .top {
-        right: 0.5rem;
+        right: 0.8rem;
     }
 
     .top button {
