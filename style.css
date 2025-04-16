@@ -41,6 +41,14 @@ header {
     list-style-type: none;
 }
 
+/* .gradient {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 5.5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+} */
+
 .gradient-text {
     background: var(--gradient-heading);
     background-clip: text;
